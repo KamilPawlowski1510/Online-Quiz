@@ -1,0 +1,44 @@
+@font-face{
+    font-family: 'sugar';
+    src: url(../fonts/sugar.ttf)
+}
+
+body {
+    background-image: url(../images/background.jpg) !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px;
+    background-attachment: fixed;
+}
+    
+.ui.tabular.menu{
+    border-bottom-color: rebeccapurple;
+}
+
+p, label, h1, h2, li{
+    font-family: "sugar" !important;
+}
+
+p{    
+    font-size: 1.3em !important;
+}
+
+label{
+    font-size: 1.2em !important;
+}
+
+h1, h2{
+    font-style: italic;
+    font-weight: 100;
+}
+
+#image, #image1{
+    display: none
+}
+
+li{
+    list-style-type: none;
+    font-size: 1.2em !important;
+    transition: opacity 500ms linear;
+}
